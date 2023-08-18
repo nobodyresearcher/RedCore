@@ -74,7 +74,7 @@ if __name__ == '__main__':
     opt = Options().parse()                             # get training options
     opt.ext = 1.5
 
-    opt.mse_weight = 0.3
+    opt.mse_weight = 0.15
     opt.ii = 3
     opt.beta = 0.7
     opt.eta = 0.1
